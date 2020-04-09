@@ -113,8 +113,26 @@ input, select, textarea {
 		font-weight: 300;
 	}
 
-	.myName{
-		color: #3db2b2;
+	/* a#logo.myName{
+		color: #000000;
+	} */
+
+	.sidebarStickyProjects{
+		position: -webkit-sticky;
+  		position: sticky;
+		top: -95%;
+	}
+
+	.sidebarStickyWordPress{
+		position: -webkit-sticky;
+  		position: sticky;
+		top: 0;
+	}
+
+	.sidebarStickyContact{
+		position: -webkit-sticky;
+  		position: sticky;
+		top: 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2184,7 +2202,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/backgroundPhoto.jpg");
+		background-image: url("../../images/backgroundPhoto3.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2291,6 +2309,8 @@ input, select, textarea {
 
 	#nav {
 		position: absolute;
+		/* position: fixed; */
+
 		top: 0;
 		left: 0;
 		width: 100%;
