@@ -120,13 +120,13 @@ input, select, textarea {
 	.sidebarStickyProjects{
 		position: -webkit-sticky;
   		position: sticky;
-		top: -110%;
+		top: -120%;
 	}
 
 	.sidebarStickyWordPress{
 		position: -webkit-sticky;
   		position: sticky;
-		top: -110px;
+		top: -140%;
 	}
 
 	.sidebarStickyContact{
