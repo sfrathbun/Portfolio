@@ -120,19 +120,19 @@ input, select, textarea {
 	.sidebarStickyProjects{
 		position: -webkit-sticky;
   		position: sticky;
-		top: -120%;
+		top: 50px;
 	}
 
 	.sidebarStickyWordPress{
 		position: -webkit-sticky;
   		position: sticky;
-		top: -140%;
+		top: -140px;
 	}
 
 	.sidebarStickyContact{
 		position: -webkit-sticky;
   		position: sticky;
-		top: -100px;
+		top: 20px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -251,6 +251,26 @@ input, select, textarea {
 		color: rgba(128, 128, 128, 0.75);
 		font-size: 0.8em;
 	}
+
+
+	.hero {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 60px;
+		padding-left: 0px;
+	}
+
+	.hero-image {
+		width: 260px;
+		height: auto;
+		border-radius: 14px;
+	}
+
+	.hero-text {
+		max-width: none;
+	}
+
 
 /* Container */
 
@@ -2483,6 +2503,16 @@ input, select, textarea {
 		}
 
 /* Footer */
+
+	#footer {
+		padding: 2rem 0;
+		height: auto !important;
+		min-height: 0 !important;
+	}
+
+	#footer .inner {
+		max-width: 100%;
+	}
 
 	#footer {
 		position: relative;
