@@ -1,20 +1,34 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
 		<title>Web Dev Projects | Sean Rathbun</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" href="images/SR.png" sizes="16x16">
-
-		<script>window.pageTitle = "Experience and Recent Projects";</script>
+		<link rel="icon" href="images/SR.png" sizes="16x16">		
 
 	</head>
 	<body class="left-sidebar is-preload">
 		<div id="page-wrapper">
 
-			<div id="site-header"></div>
+			<div id="header">
+				<div class="inner">
+					<header>
+						<h1>Experience and Recent Projects</h1>
+					</header>
+				</div>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">About Me</a></li>
+						<li>
+							<a href="experience.html">Experience</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/document/d/1KcIXYjDhJj2tlRqD2AkOai_A2VibaZbK3PNntZAlJzs/edit?usp=sharing" target="_blank" class="image fit">Resume</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 
 			<div class="wrapper style1">
 
@@ -245,29 +259,28 @@
 								<br />
 								<br />
 								<p>
-									I lead ongoing efforts to ensure the reliability, scalability, and performance of our enterprise data platform, 
-									which supports over 100 API integrations and programs which ingests over 100 million rows of data daily. 
-									The platform sustains billions of read and write operations each day, requiring deliberate design, continuous monitoring, 
+									I lead ongoing efforts to ensure the reliability, scalability, and performance of our enterprise data platform,
+									which supports over 100 API integrations and programs which ingests over 100 million rows of data daily.
+									The platform sustains billions of read and write operations each day, requiring deliberate design, continuous monitoring,
 									and proactive optimization to maintain consistent performance at scale.
 								</p>
 								<p>
-									To address throughput and stability challenges, I re-architected data ingestion workflows by implementing controlled batch 
-									and file chunking strategies, significantly reducing I/O contention and improving load predictability during high-volume 
-									data processing. I also tuned MySQL database configurations and storage-level I/O parameters, along with other critical 
-									global settings, to better align the database engine with real-world workload demands. In parallel, I established standards 
-									and review practices to ensure application queries are efficient, non-blocking, and free of excessive locking behaviors that 
-									could degrade concurrent operations. Collectively, these efforts have strengthened platform resiliency, improved responsiveness, 
+									To address throughput and stability challenges, I re-architected data ingestion workflows by implementing controlled batch
+									and file chunking strategies, significantly reducing I/O contention and improving load predictability during high-volume
+									data processing. I also tuned MySQL database configurations and storage-level I/O parameters, along with other critical
+									global settings, to better align the database engine with real-world workload demands. In parallel, I established standards
+									and review practices to ensure application queries are efficient, non-blocking, and free of excessive locking behaviors that
+									could degrade concurrent operations. Collectively, these efforts have strengthened platform resiliency, improved responsiveness,
 									and positioned the data platform to scale reliably as usage and data volumes continue to grow.
 								</p>
 							</article>
 						</div>
-					</div>					
+					</div>
 				</div>
 			</div>
 			<div id="site-footer"></div>
 
 		</div>
-		<script src="assets/js/header.js"></script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.dropotron.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
