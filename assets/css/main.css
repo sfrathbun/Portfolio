@@ -82,6 +82,30 @@ input, select, textarea {
 		width: auto;
 	}
 
+
+/* Technology list */
+	.tech-list ul {
+		list-style: none;
+		margin-left: 1rem;
+		padding-left: 0;
+		padding-top: 0;
+	}
+
+	.tech-list ul li {
+		position: relative;
+		padding-left: 1rem;
+		margin-bottom: 0.1em;
+		font-size: 0.95em;
+		opacity: 0.85;
+	}
+
+	.tech-list ul li::before {
+		content: "-";
+		position: absolute;
+		left: 0;
+	}
+
+
 /* Basic */
 
 	html {
